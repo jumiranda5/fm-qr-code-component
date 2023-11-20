@@ -1,0 +1,36 @@
+/* STRUCTURE */
+
+.flex-center {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body { 
+    background-color: pink;
+    position: relative;
+}
+
+main {
+    height: auto;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.qr-container {
+    width: 85%;
+    max-width: 20rem;
+    background-color: aliceblue;
+    margin: 4rem 0;
+    padding: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    background-color: aqua;
+}
